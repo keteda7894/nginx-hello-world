@@ -1,0 +1,8 @@
+name: hello-world
+services:
+  hello-world:
+    labels:
+      dev.okteto.com/private: "true"
+    image: nginx
+    ports:
+      - 8080:8080
